@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfHttpFormsAuth.Client", "WcfHttpFormsAuth.Client\WcfHttpFormsAuth.Client.csproj", "{5EB087D2-57C2-4BE9-B181-8016C63383A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfHttpFormsAuth.Dto", "WcfHttpFormsAuth.Dto\WcfHttpFormsAuth.Dto.csproj", "{85847191-3F61-4FBF-8818-F8CCD1B6C0FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfHttpFormsAuth.Host", "WcfHttpFormsAuth.Host\WcfHttpFormsAuth.Host.csproj", "{725441B7-20CD-4BA5-994D-1F2B34C35544}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EB087D2-57C2-4BE9-B181-8016C63383A4}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5EB087D2-57C2-4BE9-B181-8016C63383A4}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{5EB087D2-57C2-4BE9-B181-8016C63383A4}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{5EB087D2-57C2-4BE9-B181-8016C63383A4}.Debug|x86.ActiveCfg = Debug|x86
+		{5EB087D2-57C2-4BE9-B181-8016C63383A4}.Debug|x86.Build.0 = Debug|x86
+		{5EB087D2-57C2-4BE9-B181-8016C63383A4}.Release|Any CPU.ActiveCfg = Release|x86
+		{5EB087D2-57C2-4BE9-B181-8016C63383A4}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{5EB087D2-57C2-4BE9-B181-8016C63383A4}.Release|Mixed Platforms.Build.0 = Release|x86
+		{5EB087D2-57C2-4BE9-B181-8016C63383A4}.Release|x86.ActiveCfg = Release|x86
+		{5EB087D2-57C2-4BE9-B181-8016C63383A4}.Release|x86.Build.0 = Release|x86
+		{85847191-3F61-4FBF-8818-F8CCD1B6C0FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85847191-3F61-4FBF-8818-F8CCD1B6C0FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85847191-3F61-4FBF-8818-F8CCD1B6C0FD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{85847191-3F61-4FBF-8818-F8CCD1B6C0FD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{85847191-3F61-4FBF-8818-F8CCD1B6C0FD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{85847191-3F61-4FBF-8818-F8CCD1B6C0FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85847191-3F61-4FBF-8818-F8CCD1B6C0FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85847191-3F61-4FBF-8818-F8CCD1B6C0FD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{85847191-3F61-4FBF-8818-F8CCD1B6C0FD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{85847191-3F61-4FBF-8818-F8CCD1B6C0FD}.Release|x86.ActiveCfg = Release|Any CPU
+		{725441B7-20CD-4BA5-994D-1F2B34C35544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725441B7-20CD-4BA5-994D-1F2B34C35544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725441B7-20CD-4BA5-994D-1F2B34C35544}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{725441B7-20CD-4BA5-994D-1F2B34C35544}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{725441B7-20CD-4BA5-994D-1F2B34C35544}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{725441B7-20CD-4BA5-994D-1F2B34C35544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725441B7-20CD-4BA5-994D-1F2B34C35544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725441B7-20CD-4BA5-994D-1F2B34C35544}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{725441B7-20CD-4BA5-994D-1F2B34C35544}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{725441B7-20CD-4BA5-994D-1F2B34C35544}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

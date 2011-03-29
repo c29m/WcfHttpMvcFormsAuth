@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.ServiceModel.Http.Client</name>
+    </assembly>
+    <members>
+        <member name="T:System.ServiceModel.Http.Client.WebExpressionConverter">
+            <summary>
+            This class implements the default expression to uri translation logic
+            </summary>
+        </member>
+        <member name="T:System.ServiceModel.Http.Client.IExpressionToUriConverter">
+            <summary>
+            The Expression to Uri converter interface
+            </summary>
+        </member>
+        <member name="M:System.ServiceModel.Http.Client.IExpressionToUriConverter.Convert(System.Linq.Expressions.Expression)">
+            <summary>
+            Converts expression to uri
+            </summary>
+            <param name="exp">The expression</param>
+            <returns>uri which respresents the expression</returns>
+        </member>
+        <member name="M:System.ServiceModel.Http.Client.WebExpressionConverter.#ctor">
+            <summary>
+            Construct an instance of the expression converter
+            </summary>
+        </member>
+        <member name="M:System.ServiceModel.Http.Client.WebExpressionConverter.Convert(System.Linq.Expressions.Expression)">
+            <summary>
+            Converts expression to Uri
+            </summary>
+            <param name="e">The expression</param>
+            <returns>Converted uri</returns>
+        </member>
+        <member name="P:System.ServiceModel.Http.Client.WebExpressionConverter.Instance">
+            <summary>
+            Gets an staic instance of the expression converter
+            </summary>
+        </member>
+        <member name="T:System.ServiceModel.Http.Client.HttpClientExtensions">
+            <summary>
+            This class is used to extend the existing HttpClient class so that user can start
+            using the HttpClient proxy to Query the service
+            </summary>
+        </member>
+        <member name="M:System.ServiceModel.Http.Client.HttpClientExtensions.CreateQuery``1(System.Net.Http.HttpClient)">
+            <summary>
+            This method create a WebQuery so that you can further construct the linq expression against 
+            a list of objects
+            </summary>
+            <typeparam name="T">The type of the object in the list</typeparam>
+            <param name="client">The http client proxy</param>
+            <returns>The web query which implements the IQueryable</returns>
+        </member>
+        <member name="M:System.ServiceModel.Http.Client.HttpClientExtensions.CreateQuery``1(System.Net.Http.HttpClient,System.String)">
+            <summary>
+            This method create a WebQuery so that you can further construct the linq expression against 
+            a list of objects
+            </summary>
+            <typeparam name="T">The type of the object in the list</typeparam>
+            <param name="client">The http client proxy</param>
+            <param name="relativeAddress">The relative address that represents the resource</param>
+            <returns>The web query which implements the IQueryable</returns>
+        </member>
+        <member name="M:System.ServiceModel.Http.Client.HttpClientExtensions.CreateQuery``1(System.Net.Http.HttpClient,System.String,System.ServiceModel.Http.Client.IExpressionToUriConverter)">
+            <summary>
+            This method create a WebQuery so that you can further construct the linq expression against 
+            a list of objects
+            </summary>
+            <typeparam name="T">The type of the object in the list</typeparam>
+            <param name="client">The http client proxy</param>
+            <param name="relativeAddress">The relative address that represents the resource</param>
+            <param name="converter">The custom expression to uri converter</param>
+            <returns>The web query which implements the IQueryable</returns>
+        </member>
+        <member name="M:System.ServiceModel.Http.Client.HttpClientExtensions.CreateQuery``1(System.Net.Http.HttpClient,System.Uri)">
+            <summary>
+            This method create a WebQuery so that you can further construct the linq expression against 
+            a list of objects
+            </summary>
+            <typeparam name="T">The type of the object in the list</typeparam>
+            <param name="client">The http client proxy</param>
+            <param name="relativeUri">The relative address Uri that represents the resource</param>
+            <returns>The web query which implements the IQueryable</returns>
+        </member>
+        <member name="M:System.ServiceModel.Http.Client.HttpClientExtensions.CreateQuery``1(System.Net.Http.HttpClient,System.Uri,System.ServiceModel.Http.Client.IExpressionToUriConverter)">
+            <summary>
+            This method create a WebQuery so that you can further construct the linq expression against 
+            a list of objects
+            </summary>
+            <typeparam name="T">The type of the object in the list</typeparam>
+            <param name="client">The http client proxy</param>
+            <param name="relativeUri">The relative address Uri that represents the resource</param>
+            <param name="converter">The custom expression to uri converter</param>
+            <returns>The web query which implements the IQueryable</returns>
+        </member>
+        <member name="T:System.ServiceModel.Http.Client.WebQuery`1">
+            <summary>
+            This class will be used to capture the IQueryable list returned from the HttpClient.CreateQuery 
+            method, where people can compose query further. 
+            </summary>
+            <typeparam name="T">The type of the item in the returning list</typeparam>
+        </member>
+        <member name="M:System.ServiceModel.Http.Client.WebQuery`1.GetEnumerator">
+            <summary>
+            Executes the query by sending a request to the server and return the enumerator of the result list
+            </summary>
+            <returns>The enumerator of the result list</returns>
+        </member>
+        <member name="M:System.ServiceModel.Http.Client.WebQuery`1.Execute">
+            <summary>
+            Executes the query by sending a request to the server
+            </summary>
+            <returns>A list of the objects</returns>
+        </member>
+        <member name="M:System.ServiceModel.Http.Client.WebQuery`1.ExecuteAsync">
+            <summary>
+            The end part of async implementation of execute method
+            </summary>
+            <returns>A task which contains the result</returns>
+        </member>
+        <member name="P:System.ServiceModel.Http.Client.WebQuery`1.Provider">
+            <summary>
+            Gets the query provider implementation
+            </summary>
+        </member>
+        <member name="P:System.ServiceModel.Http.Client.WebQuery`1.Expression">
+            <summary>
+            Gets the linq expression 
+            </summary>
+        </member>
+        <member name="P:System.ServiceModel.Http.Client.WebQuery`1.ElementType">
+            <summary>
+            Gets the type of the item in the list
+            </summary>
+        </member>
+        <member name="P:System.ServiceModel.Http.Client.WebQuery`1.RequestUri">
+            <summary>
+            Gets the request Uri from the request message
+            </summary>
+        </member>
+        <member name="T:System.ServiceModel.Web.Client.SR">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:System.ServiceModel.Web.Client.SR.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:System.ServiceModel.Web.Client.SR.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:System.ServiceModel.Web.Client.SR.AsyncResultAlreadyEnded">
+            <summary>
+              Looks up a localized string similar to The async result has already been ended..
+            </summary>
+        </member>
+        <member name="P:System.ServiceModel.Web.Client.SR.AsyncResultCompletedTwice">
+            <summary>
+              Looks up a localized string similar to The async result &apos;{0}&apos; completed twice..
+            </summary>
+        </member>
+        <member name="P:System.ServiceModel.Web.Client.SR.ExpressionMustStartWithMethodCall">
+            <summary>
+              Looks up a localized string similar to The query expression cannot be executed because it does not start with a method call..
+            </summary>
+        </member>
+        <member name="P:System.ServiceModel.Web.Client.SR.InvalidAsyncResultImplementation">
+            <summary>
+              Looks up a localized string similar to The async result &apos;{0}&apos; is not implemented correctly..
+            </summary>
+        </member>
+        <member name="P:System.ServiceModel.Web.Client.SR.MethodNotSupported">
+            <summary>
+              Looks up a localized string similar to The method &apos;{0}&apos; is not supported..
+            </summary>
+        </member>
+        <member name="P:System.ServiceModel.Web.Client.SR.QueryResourceUriMustBeRelative">
+            <summary>
+              Looks up a localized string similar to The Uri &apos;{0}&apos; is not a relative Uri..
+            </summary>
+        </member>
+        <member name="P:System.ServiceModel.Web.Client.SR.WebQueryRequestMessageCanOnlyBeHttpGet">
+            <summary>
+              Looks up a localized string similar to The request message of a web query can only be HTTP GET..
+            </summary>
+        </member>
+        <member name="P:System.ServiceModel.Web.Client.SR.WebQueryResponseDidNotReturnStatusOK">
+            <summary>
+              Looks up a localized string similar to The status code of the HTTP response of the web query is &apos;{0}&apos;, &apos;{1}&apos;, which indicates an error has occurred in handling the HTTP request..
+            </summary>
+        </member>
+        <member name="P:System.ServiceModel.Web.Client.SR.WebQueryResponseMessageInUnsupportedFormat">
+            <summary>
+              Looks up a localized string similar to The content of the HTTP message is not in XML or JSON format, which is required in order to deserialize the message into objects..
+            </summary>
+        </member>
+        <member name="P:System.ServiceModel.Web.Client.SR.WebQueryResponseMessageMissingMediaType">
+            <summary>
+              Looks up a localized string similar to The media type of the response cannot be null where there is a ContentType header.
+            </summary>
+        </member>
+    </members>
+</doc>

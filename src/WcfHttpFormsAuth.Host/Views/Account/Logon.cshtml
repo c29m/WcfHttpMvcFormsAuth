@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Logon";
+}
+
+<h2>Logon</h2>
+
+@using (Html.BeginForm()) { 
+
+@Html.TextBox("username")
+@Html.Password("password")
+<input type="submit" />
+
+    }
+
+@Html.ActionLink("Log Off", "LogOff")

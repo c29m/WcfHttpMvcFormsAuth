@@ -1,0 +1,218 @@
+<stylecopresultscache>
+  <version>10</version>
+  <sourcecode name="ActionContent.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/25/2010 22:22:16</timestamp>
+      <milliseconds>608</milliseconds>
+    </settings>
+    <timestamp>12/25/2010 22:04:35</timestamp>
+    <milliseconds>457</milliseconds>
+    <violations>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace" ruleCheckId="SA1210">
+        <context>Using directives must be sorted alphabetically by the namespaces.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace" ruleCheckId="SA1210">
+        <context>Using directives must be sorted alphabetically by the namespaces.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBeOrderedAlphabeticallyByNamespace" ruleCheckId="SA1210">
+        <context>Using directives must be sorted alphabetically by the namespaces.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" ruleCheckId="SA1505">
+        <context>An opening curly bracket must not be followed by a blank line.</context>
+        <line>13</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>15</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="SR.Designer.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/25/2010 22:22:16</timestamp>
+      <milliseconds>608</milliseconds>
+    </settings>
+    <timestamp>12/26/2010 11:22:53</timestamp>
+    <milliseconds>723</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="XmlContentExtensions.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/25/2010 22:22:16</timestamp>
+      <milliseconds>608</milliseconds>
+    </settings>
+    <timestamp>12/26/2010 11:23:16</timestamp>
+    <milliseconds>728</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="-442557494">
+    <configuration>DEBUG</configuration>
+  </project>
+  <sourcecode name="JsonContentExtensions.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/25/2010 22:22:16</timestamp>
+      <milliseconds>608</milliseconds>
+    </settings>
+    <timestamp>12/26/2010 11:42:15</timestamp>
+    <milliseconds>479</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/25/2010 22:22:16</timestamp>
+      <milliseconds>608</milliseconds>
+    </settings>
+    <timestamp>12/26/2010 11:40:12</timestamp>
+    <milliseconds>134</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="FX.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/25/2010 22:22:16</timestamp>
+      <milliseconds>608</milliseconds>
+    </settings>
+    <timestamp>01/02/2011 21:48:06</timestamp>
+    <milliseconds>109</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="JsonValueContentExtensions.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/25/2010 22:22:16</timestamp>
+      <milliseconds>608</milliseconds>
+    </settings>
+    <timestamp>01/02/2011 21:49:11</timestamp>
+    <milliseconds>577</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="DataContractContentExtensions.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/25/2010 22:22:16</timestamp>
+      <milliseconds>608</milliseconds>
+    </settings>
+    <timestamp>01/02/2011 21:49:29</timestamp>
+    <milliseconds>45</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="JsonDataContractContentExtensions.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/25/2010 22:22:16</timestamp>
+      <milliseconds>608</milliseconds>
+    </settings>
+    <timestamp>01/02/2011 21:49:22</timestamp>
+    <milliseconds>233</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="XElementContentExtensions.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/25/2010 22:22:16</timestamp>
+      <milliseconds>608</milliseconds>
+    </settings>
+    <timestamp>01/02/2011 21:49:36</timestamp>
+    <milliseconds>420</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="XmlSerializerContentExtensions.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/25/2010 22:22:16</timestamp>
+      <milliseconds>608</milliseconds>
+    </settings>
+    <timestamp>01/02/2011 22:06:31</timestamp>
+    <milliseconds>979</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="GlobalSuppressions.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/25/2010 22:22:16</timestamp>
+      <milliseconds>608</milliseconds>
+    </settings>
+    <timestamp>01/02/2011 22:09:52</timestamp>
+    <milliseconds>835</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="XmlDocumentExtensions.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/25/2010 22:22:16</timestamp>
+      <milliseconds>608</milliseconds>
+    </settings>
+    <timestamp>01/02/2011 22:09:38</timestamp>
+    <milliseconds>615</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ObjectExtensions.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/25/2010 22:22:16</timestamp>
+      <milliseconds>608</milliseconds>
+    </settings>
+    <timestamp>01/02/2011 22:10:22</timestamp>
+    <milliseconds>493</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="XmlReaderContentExtensions.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/25/2010 22:22:16</timestamp>
+      <milliseconds>608</milliseconds>
+    </settings>
+    <timestamp>01/02/2011 22:14:03</timestamp>
+    <milliseconds>656</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="681443887">
+    <configuration>DEBUG</configuration>
+  </project>
+  <sourcecode name="HttpContentExtensions.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/25/2010 22:22:16</timestamp>
+      <milliseconds>608</milliseconds>
+    </settings>
+    <timestamp>01/02/2011 22:14:42</timestamp>
+    <milliseconds>320</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="IContentFormatter.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/25/2010 22:22:16</timestamp>
+      <milliseconds>608</milliseconds>
+    </settings>
+    <timestamp>01/02/2011 22:14:50</timestamp>
+    <milliseconds>445</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

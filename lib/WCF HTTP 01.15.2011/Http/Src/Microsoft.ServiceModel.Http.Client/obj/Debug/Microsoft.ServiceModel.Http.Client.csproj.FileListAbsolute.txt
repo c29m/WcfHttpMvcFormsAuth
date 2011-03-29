@@ -1,0 +1,9 @@
+D:\Code\SandBox\WcfHttpMvcAuth\lib\WCF HTTP 01.15.2011\build\Debug\Http\bin\Microsoft.ServiceModel.Http.Client.XML
+D:\Code\SandBox\WcfHttpMvcAuth\lib\WCF HTTP 01.15.2011\build\Debug\Http\bin\Microsoft.ServiceModel.Http.Client.dll
+D:\Code\SandBox\WcfHttpMvcAuth\lib\WCF HTTP 01.15.2011\build\Debug\Http\bin\Microsoft.ServiceModel.Http.Client.pdb
+D:\Code\SandBox\WcfHttpMvcAuth\lib\WCF HTTP 01.15.2011\Http\Src\Microsoft.ServiceModel.Http.Client\obj\Debug\ResolveAssemblyReference.cache
+D:\Code\SandBox\WcfHttpMvcAuth\lib\WCF HTTP 01.15.2011\Http\Src\Microsoft.ServiceModel.Http.Client\obj\Debug\System.ServiceModel.Http.Client.SR.resources
+D:\Code\SandBox\WcfHttpMvcAuth\lib\WCF HTTP 01.15.2011\Http\Src\Microsoft.ServiceModel.Http.Client\obj\Debug\GenerateResource.read.1.tlog
+D:\Code\SandBox\WcfHttpMvcAuth\lib\WCF HTTP 01.15.2011\Http\Src\Microsoft.ServiceModel.Http.Client\obj\Debug\GenerateResource.write.1.tlog
+D:\Code\SandBox\WcfHttpMvcAuth\lib\WCF HTTP 01.15.2011\Http\Src\Microsoft.ServiceModel.Http.Client\obj\Debug\Microsoft.ServiceModel.Http.Client.dll
+D:\Code\SandBox\WcfHttpMvcAuth\lib\WCF HTTP 01.15.2011\Http\Src\Microsoft.ServiceModel.Http.Client\obj\Debug\Microsoft.ServiceModel.Http.Client.pdb
