@@ -1,0 +1,5 @@
+D:\Code\SandBox\WcfHttpMvcAuth\lib\WCF HTTP 01.15.2011\build\Debug\Http\Test\UnitTest\Microsoft.ServiceModel.Http.Client.UnitTest.dll
+D:\Code\SandBox\WcfHttpMvcAuth\lib\WCF HTTP 01.15.2011\build\Debug\Http\Test\UnitTest\Microsoft.ServiceModel.Http.Client.UnitTest.pdb
+D:\Code\SandBox\WcfHttpMvcAuth\lib\WCF HTTP 01.15.2011\Http\Test\Microsoft.ServiceModel.Http.Client.UnitTest\obj\Debug\ResolveAssemblyReference.cache
+D:\Code\SandBox\WcfHttpMvcAuth\lib\WCF HTTP 01.15.2011\Http\Test\Microsoft.ServiceModel.Http.Client.UnitTest\obj\Debug\Microsoft.ServiceModel.Http.Client.UnitTest.dll
+D:\Code\SandBox\WcfHttpMvcAuth\lib\WCF HTTP 01.15.2011\Http\Test\Microsoft.ServiceModel.Http.Client.UnitTest\obj\Debug\Microsoft.ServiceModel.Http.Client.UnitTest.pdb
